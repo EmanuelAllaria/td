@@ -1,0 +1,12 @@
+form {
+    text-align: start;
+}
+.list-inline-item a {
+    color: #0d6efd !important;
+}
+button.btn.btn-primary {
+    width: -webkit-fill-available;
+}
+i.fab {
+    font-size: 30px;
+}

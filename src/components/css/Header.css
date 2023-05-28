@@ -1,0 +1,33 @@
+a {
+    color: black !important;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    width: 100%;
+}
+
+.logo-header {
+    height: 50px;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    text-align-last: center !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-right: 20px !important;
+    }
+    
+    .dropdown-menu.show {
+        left: -9.5pc !important;
+    }
+}

@@ -1,0 +1,12 @@
+.carousel-indicators.banner [data-bs-target] {
+    width: 12px;
+    height: 13px;
+    border-radius: 50px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.w-100.banner {
+    width: 100%!important;
+    height: 500px;
+}
